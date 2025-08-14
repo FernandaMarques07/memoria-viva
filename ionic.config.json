@@ -1,0 +1,7 @@
+{
+  "name": "MemoriaViva",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

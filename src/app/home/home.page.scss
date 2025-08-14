@@ -1,0 +1,59 @@
+
+.create-account-btn {
+  height: 56px;
+  padding: 0 32px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  background: transparent;
+  color: black;
+  --border-color: orange;
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.social-btn {
+  width: 280px;
+  height: 48px;
+  font-weight: 600;
+  justify-content: flex-start;
+  padding-left: 16px;
+  border-radius: 1px;
+  background: transparent;
+  color: #000;
+  --border-color: #9c3fc3;
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.social-btn ion-icon {
+  font-size: 24px;
+  margin-right: 12px;
+}
+
+.facebook-icon {
+  color: #1877f2;
+}
+
+.google-icon {
+  color: #db4437;
+}
+
+.divider-container {
+  width: 280px;
+  text-align: center;
+  margin: 5px 0;
+  position: relative;
+}
+
+.divider-text {
+  padding: 0 12px;
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+}

@@ -1,0 +1,23 @@
+.form-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30%;
+}
+
+ion-input {
+  color: #000;
+  --placeholder-color: #000;
+  --placeholder-opacity: 1;
+  border-color: #9c3fc3;
+  --highlight-color: #9c3fc3;
+  border-radius: 10px;
+}
+
+
+.btn-entrar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

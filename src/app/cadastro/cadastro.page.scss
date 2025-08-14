@@ -1,0 +1,32 @@
+.form-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 35%;
+}
+
+ion-input {
+  color: #000;
+  --placeholder-color: #000;
+  --placeholder-opacity: 1;
+  border-color: #9c3fc3;
+  --highlight-color: #9c3fc3;
+  border-radius: 10px;
+}
+
+.btn-cadastrar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.link-login {
+  margin-top: 0px;
+  text-align: center;
+  color: #f08845;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  display: block;
+}
