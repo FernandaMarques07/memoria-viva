@@ -1,0 +1,43 @@
+.btn-cadastrar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.link-login {
+  margin-top: 0px;
+  text-align: center;
+  color: #f08845;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  display: block;
+}
+
+.error-box {
+  background-color: #ffecec;
+  border-left: 6px solid #ff3b30;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 90%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error-icon {
+  color: #ff3b30;
+  font-size: 24px;
+}
+
+.error-message {
+  color: #d00000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+}

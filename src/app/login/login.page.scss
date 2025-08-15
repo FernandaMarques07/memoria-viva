@@ -1,0 +1,34 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20%;
+  padding: 10%;
+  align-content: center;
+}
+
+.btn-entrar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.link-senha {
+  margin-top: 0px;
+  text-align: center;
+  color: orange;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  display: block;
+}
+
+.link-cadastro {
+  margin-top: 0px;
+  text-align: center;
+  color: red;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  display: block;
+}
